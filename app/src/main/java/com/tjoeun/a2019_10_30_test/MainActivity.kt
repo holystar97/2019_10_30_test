@@ -18,6 +18,11 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this,String.format("ID: %s, PW: %s",inputId,inputPw),Toast.LENGTH_SHORT).show();
 
 
+            if(inputPw.equals("admin")){
+                
+            }
+
+
         }
 
 
